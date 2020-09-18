@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import 'normalize-scss';
+@include normalize();
+
+body {font-family: 'Roboto', sans-serif;}
+.container {padding: 15px; box-sizing: border-box;}
+
+button {
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 30px;
+    outline: none;
+}
